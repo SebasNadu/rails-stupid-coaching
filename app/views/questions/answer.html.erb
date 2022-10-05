@@ -1,0 +1,18 @@
+<h1 class="h1 container">Stupid Coaching</h1>
+<figure>
+  <blockquote class="blockquote">
+    <p><%= params[:question] %></p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    <cite title="you">You</cite>
+  </figcaption>
+</figure>
+<figure>
+  <blockquote class="blockquote">
+    <p><%= @answer %></p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    <cite title="coach">You coach</cite>
+  </figcaption>
+</figure>
+<%= link_to 'Ask a new question', ask_path %>
