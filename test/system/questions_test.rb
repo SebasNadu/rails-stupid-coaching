@@ -15,7 +15,7 @@ class QuestionsTest < ApplicationSystemTestCase
     fill_in "question", with: "Hello"
     click_on "Ask"
 
-    assert_text "I don't care, get dressed and go to work!"
     take_screenshot
+    assert_text "I don't care, get dressed and go to work!"
   end
 end
